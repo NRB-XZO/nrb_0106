@@ -55,11 +55,11 @@ while True:
         sleep(4)
     elif q3 == 3:
         asdf = random.randint(0, 100)
-        if asdf < 10:
+        if asdf < 90:
             print("Erişim sağlanıyor...")
             sleep(5)
             print("Herhangi bir aramada değil")
-        elif 11 < asdf < 110:
+        elif 91 < asdf < 110:
             print("Erişim sağlanıyor..")
             sleep(5)
             print("""
